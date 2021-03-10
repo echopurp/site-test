@@ -6,14 +6,26 @@ bannerimage: "/upload/container-537724_640.jpg"
 tags: []
 
 ---
+<BlogHeader 
+
+  :frontmatter="$frontmatter"
+
+/>
+
 New post starts here. More text. More text. Even **more** text :-)
 
 Something, something, something...
 
 The end!
 
+![](/upload/default-banner.jpg)
+
 * one
 * two
 * three
 
-![](/upload/default-banner.jpg)
+<BlogFooter 
+
+  :frontmatter="$frontmatter"
+
+/>
