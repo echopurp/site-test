@@ -18,4 +18,5 @@ fields:
   name: tags
   label: tags
 pages:
+- LandingPage/docs/blog/another-test-blog-post.md
 - LandingPage/docs/blog/my-new-test-blog-post.md
