@@ -1,0 +1,13 @@
+---
+label: test template
+hide_body: true
+fields:
+- name: 'yes'
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: 'yes'
