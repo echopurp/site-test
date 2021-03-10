@@ -21,10 +21,10 @@ button1Text="Button 1"
 button1Link="/#mc_signup"
 button2Text="Button 2"
 button2Link="https://github.com/docker-slim/docker-slim"
-:bullets = "\[
+:bullets = "[
 'Bullet # 1 - Lorem ipsum dolor sit amet',
 'Bullet # 2 - Lorem ipsum dolor sit amet'
-\]"
+]"
 />
 
 The end!
