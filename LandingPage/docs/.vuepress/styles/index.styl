@@ -1,0 +1,118 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-style
+.home .hero img
+  max-width 450px!important
+ */
+
+
+@font-face {
+  font-family: "AvantGardeGothicITCW01Bd";
+  src: url("/fonts/AvantGardeGothicITCW01Bd/font.woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "AvantGardeGothicITCW01Bk";
+  src: url("/fonts/AvantGardeGothicITCW01Bk/font.woff");
+}
+@font-face {
+  font-family: "AvantGardeGothicITCW02BkObl";
+  src: url("/fonts/AvantGardeGothicITCW02BkObl/font.woff");
+}
+@font-face {
+  font-family: "AvantGardeGothicITCW02Md ";
+  src: url("/fonts/AvantGardeGothicITCW02Md/font.woff");
+}
+div.theme-default-content:not(.custom) {
+    max-width: 100%;
+ }
+
+ .fwContent {
+   background-color: yellow;
+ }
+
+ .titleFont {
+  font-family: 'AvantGardeGothicITCW01Bd',sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+}
+.subTitleFont {
+  font-family: 'AvantGardeGothicITCW01Bk';
+  font-size: 18px;
+  font-weight: 600;
+}
+.columnList {
+  font-family: 'AvantGardeGothicITCW01Bk', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left ;
+}
+.columnTitle {
+  line-height: 1.3em;
+  font-size: 48px;
+  font-family: 'AvantGardeGothicITCW01Bd',sans-serif;
+  font-weight: 900;
+}
+.columnHeadline {
+  font-family: Courier, 'Courier New',  monospace;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left ;
+}
+li {
+  margin: 10px 0;
+}
+.colorDark {
+  color:#444444 ;
+}
+.colorGreyed {
+  color:#707070;
+}
+.colorDark2 {
+  color:#373A36;
+}
+.backColorBlue {
+  background-color: $blueBgColor;
+}
+
+.section {
+  padding: 24px;
+}
+.repo-link {
+  color:black;
+}
+
+.borderBoxRed {
+  border: red 2px solid;
+}
+.borderBoxGreen {
+  border: green 2px solid;
+}
+.borderBoxBlue {
+  border: blue 2px solid;
+}
+.normalCaps {
+  text-transform: none !important;
+}
+
+.buttonStd {
+  color: white !important;
+  width:220px;
+  min-height:50px;
+  font-size: 1rem;
+  font-family: AvantGardeGothicITCW01Bk;
+  font-weight: normal;
+}
+
+@media (max-width: $MQMobile) {
+  .titleFont {
+    font-size:30px;
+  }
+}
+
+@media (max-width: $MQMobileNarrow) {
+  .titleFont {
+    font-size:30px;
+  }
+}

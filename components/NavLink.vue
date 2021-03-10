@@ -1,0 +1,63 @@
+<template>
+  <router-link
+    class="saimenulink"
+    :to="link"
+    v-if="!isExternal(link)"
+    :exact="exact"
+  >{{ item.text }}</router-link>
+  <a
+    v-else
+    :href="link"
+    class="black--text"
+    :target="isMailto(link) || isTel(link) ? null : '_blank'"
+    :rel="isMailto(link) || isTel(link) ? null : 'noopener noreferrer'"
+  >
+    {{ item.text }}
+    <OutboundLink/>
+  </a>
+</template>
+
+<script>
+import { isExternal, isMailto, isTel, ensureExt } from '../util'
+
+export default {
+  props: {
+    item: {
+      required: true
+    }
+  },
+
+  computed: {
+    link () {
+      return ensureExt(this.item.link)
+    },
+
+    exact () {
+      if (this.$site.locales) {
+        return Object.keys(this.$site.locales).some(rootLink => rootLink === this.link)
+      }
+      return this.link === '/'
+      //   color:#444444 !important;
+    }
+  },
+
+  methods: {
+    isExternal,
+    isMailto,
+    isTel
+  }
+}
+</script>
+
+<style lang="stylus">
+.saimenulink {
+  text-transform: lowercase;
+  font-family: 'AvantGardeGothicITCW01Bd';
+  font-size: 20px;
+  font-weight: 600;
+
+  color:#373A36 !important;
+  
+}
+</style>
+

@@ -1,0 +1,44 @@
+{
+  "name": "vuepress-theme-vuetify",
+  "version": "1.0.0",
+  "description": "Vuepress docs theme using vuetify",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "enhanceAppFile.js",
+    "noopModule.js",
+    "styles",
+    "util",
+    "layouts",
+    "global-components",
+    "components"
+  ],
+  "scripts": {
+    "say-completed": "echo 'Build and copy toml complete!'",
+    "copytoml": "cp -r netlify.toml LandingPage/docs/.vuepress/dist",
+    "dev": "vuepress dev LandingPage/docs/",
+    "build": "vuepress build LandingPage/docs/ && npm run copytoml && npm run say-completed"
+  },
+  "keywords": [
+    "vuepress",
+    "vuepress-theme",
+    "vuepress-docs",
+    "vuepress-theme-vuetify",
+    "material design",
+    "vue"
+  ],
+  "author": "Slim.AI",
+  "private": true,
+  "dependencies": {
+    "@mdi/font": "^4.7.95",
+    "flexsearch": "^0.6.32",
+    "markdown-it-multimd-table": "^4.0.3",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "vuepress": "^1.1.0",
+    "vuetify": "^2.1.15"
+  },
+  "directories": {
+    "LandingPage": "LandingPage"
+  }
+}
