@@ -11,5 +11,3 @@ fields:
     schema:
       format: markdown
   label: 'yes'
-pages:
-- LandingPage/docs/blog/test_post.md
