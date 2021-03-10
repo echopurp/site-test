@@ -7,9 +7,7 @@ tags: []
 
 ---
 <BlogHeader 
-
   :frontmatter="$frontmatter"
-
 />
 
 New post starts here. More text. More text. Even **more** text :-)
@@ -25,7 +23,5 @@ The end!
 * three
 
 <BlogFooter 
-
   :frontmatter="$frontmatter"
-
 />
