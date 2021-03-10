@@ -12,6 +12,8 @@ New post starts here. More text. More text. Even **more** text :-)
 
 Something, something, something...
 
+done
+
 The end!
 
 ![](/upload/default-banner.jpg)
