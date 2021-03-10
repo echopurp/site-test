@@ -6,9 +6,6 @@ bannerimage: "/upload/container-537724_640.jpg"
 tags: []
 
 ---
-<BlogHeader 
-  :frontmatter="$frontmatter"
-/>
 
 New post starts here. More text. More text. Even **more** text :-)
 
@@ -21,7 +18,3 @@ The end!
 * one
 * two
 * three
-
-<BlogFooter 
-  :frontmatter="$frontmatter"
-/>
