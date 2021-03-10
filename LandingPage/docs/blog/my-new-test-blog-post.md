@@ -8,3 +8,14 @@ tags:
 summary: Post Summary Here
 
 ---
+<BlogHeader 
+  :frontmatter="$frontmatter"
+/>
+
+The blog post text starts here.
+
+More here.
+
+<BlogFooter 
+  :frontmatter="$frontmatter"
+/>
