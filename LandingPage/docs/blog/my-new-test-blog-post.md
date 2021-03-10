@@ -16,6 +16,12 @@ The blog post text starts here.
 
 More here.
 
+Test List:
+
+* One
+* Two
+* Three
+
 <BlogFooter 
   :frontmatter="$frontmatter"
 />
