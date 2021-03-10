@@ -12,4 +12,5 @@ fields:
       format: markdown
   label: 'yes'
 pages:
+- LandingPage/docs/blog/new test.md
 - LandingPage/docs/blog/test_post.md
