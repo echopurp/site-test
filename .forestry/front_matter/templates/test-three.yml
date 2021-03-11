@@ -19,6 +19,7 @@ fields:
   label: tags
 pages:
 - LandingPage/docs/blog/another-test-blog-post.md
+- LandingPage/docs/blog/my-brand-new-blog-post.md
 - LandingPage/docs/blog/my-new-test-blog-post.md
 - LandingPage/docs/blog/new-test-blog-post.md
 - LandingPage/docs/blog/yet-another-test-blog-post.md
