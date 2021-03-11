@@ -9,18 +9,6 @@ tags:
 ---
 <BlogHeader :frontmatter="$frontmatter" />
 
-New post starts here. More text. More text. Even **more** text :-)
-
-Something, something, something...
-
-DONE... done... done
-
-The end!
-
-![](/upload/default-banner.jpg)
-
-* one
-* two
-* three
+My new post here...
 
 <BlogFooter :frontmatter="$frontmatter" />
