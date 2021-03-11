@@ -6,7 +6,7 @@
         :elevation="hover ? 24 : 6"
         class="mx-auto my-6"
         max-width="375"
-        min-height="580"
+        min-height="440"
         max-height="580"
       >
             <v-img
@@ -57,43 +57,7 @@
               class="ml-4 pa-0"
               v-if="page.frontmatter.tags && page.frontmatter.tags.length > 0"
             >
-              <v-chip
-                v-for="(tag, index) in page.frontmatter.tags"
-                :key="index"
-                class="blogbody"
-                :color="tag.toLowerCase() === 'video' ? '#FFDA7E' :''"
-              >
-                {{tag}}
-              </v-chip>
             </v-chip-group>
-          </v-card-text>
-          <v-divider class="mx-4"></v-divider>
-          <v-card-text>
-            <v-row
-              align="center"
-              class="ma-0 pa-0"
-            >
-              <v-img
-                class="portrait ml-2"
-                :src="page.frontmatter.authorimage ? page.frontmatter.authorimage : '/blog/default-avatar.png'"
-              ></v-img>
-              <v-col cols="6" class="justify-center ma-0 pa-0" justify="center" align="center">
-              <div  v-if="page.frontmatter.author" class="blogsubtitle">{{ page.frontmatter.author}}</div>
-                <div v-if="page.frontmatter.jobtitle" class="blogbody">
-                  {{ page.frontmatter.jobtitle}}
-                </div>
-                <div v-if="page.frontmatter.company" class="blogbody">
-                  {{ page.frontmatter.company}}
-                </div>
-                <a 
-                  v-if="page.frontmatter.authorlink && page.frontmatter.authorlinktext"
-                  v-bind:href="page.frontmatter.authorlink"
-                  target="_blank"
-                >
-                  {{ page.frontmatter.authorlinktext}}
-                </a>
-              </v-col>
-            </v-row>
           </v-card-text>
          </v-card>
       </template>
