@@ -26,19 +26,8 @@
               justify="start"
             >
                <v-col cols="2"  justify="start" align="start">
-                <v-img
-                    class="blogheaderportrait"
-                    :src="frontmatter.authorimage ? frontmatter.authorimage : '/blog/default-avatar.png'"
-                  ></v-img>
                </v-col>
               <v-col cols="6"  justify="center" align="center">
-              <div  v-if="frontmatter.author" class="blogsubtitle">{{ frontmatter.author}}</div>
-                <div v-if="frontmatter.jobtitle" class="blogheaderbody">
-                  {{ frontmatter.jobtitle}}
-                </div>
-                <div v-if="frontmatter.company" class="blogheaderbody">
-                  {{ frontmatter.company }}
-                </div>
               </v-col>
               <v-col cols="4"  justify="start" align="end">
                  <div class="blogheaderbody">{{ new Date(frontmatter.date).toLocaleString()}}</div>
