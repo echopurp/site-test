@@ -12,7 +12,7 @@
               align="center"
               class="mx-0 mt-1 justify-space-between"   
             >
-              <div  v-if="frontmatter.author" class="blogfootersubtitle my-0 py-0">{{ frontmatter.author}}</div>    
+    
               <div class="blogfootersubtitle my-0 py-0">{{ new Date(frontmatter.date).toLocaleString()}}</div>
             </v-row>
           </v-card-text>
