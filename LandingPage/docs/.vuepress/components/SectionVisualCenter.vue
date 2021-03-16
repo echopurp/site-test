@@ -37,7 +37,7 @@
         </div>
       </v-col>
     </v-row>
-    <v-row  align="left" justify="center" class="secRow" no-gutters>
+    <v-row  align="center" justify="center" class="secRow" no-gutters>
       <v-col cols="6" sm="10" md="10" lg="10" xl="10" >
           <div v-if="headline !== undefined" class="columnHeadline colorGreyed">
             &#60;{{headline}}&#62;
