@@ -74,4 +74,10 @@ h1 {
 .blogheaderbody {
   font-size: .9rem;
 }
+
+.pageBoxed {
+  max-width: 720px;
+  padding-left: 8px;
+  padding-right:8px;
+}
 </style>
